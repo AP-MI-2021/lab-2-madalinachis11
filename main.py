@@ -1,5 +1,6 @@
 import math
 '''
+Problema 12
 Returneaza toate numere din intervalul [start,stop] care sunt patrate perfecte.
 '''
 def get_perfect_squares(start,stop):
@@ -28,6 +29,7 @@ def is_palindrome(n) ->bool:
     else:
         return 0
 '''
+Problema 5
 Functia testeaza daca un numar este palindrom utilizand functia is_palindrome.
 '''
 def test_is_palindrome():
@@ -62,8 +64,8 @@ def main():
                     print(f'Numarul {x} nu este palindrom.')
                 test_is_palindrome()
             elif optiune == '2':
-                st = int(input('Introduceti marginea inferioara a intervalului:'))
-                fn = int(input('Introduceti marginea superioara a intervalului:'))
+                st = int(input('Introduceti capatul din stanga al intervalului:'))
+                fn = int(input('Introduceti capatul din dreapta al intervalului:'))
                 print(f'Patratele perfecte din intervalul [{st},{fn}] sunt: {get_perfect_squares(st,fn)}')
                 test_get_perfect_squares()
             elif optiune == 'x':
