@@ -1,7 +1,9 @@
 import math
 '''
 Problema 12
-Returneaza toate numere din intervalul [start,stop] care sunt patrate perfecte.
+Returneaza toate numerele din intervalul [start,stop] care sunt patrate perfecte.
+Start reprezinta capatul din stanga al intervalului.
+Stop reprezinta capatul din dreapta al intervalului.
 '''
 def get_perfect_squares(start,stop):
     lista=[]
@@ -15,7 +17,9 @@ def get_perfect_squares(start,stop):
             lista.append(i)
     return lista
 '''
+Problema 5
 Functa returneaza daca numarul introdus de utilizator este palindrom sau nu.
+"n" este numarul care trebuie studiat.
 '''
 def is_palindrome(n) ->bool:
     palindrom=0
