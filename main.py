@@ -77,6 +77,7 @@ def test_get_n_choose_k():
 '''
 Functia principala pentru interfata consolei.
 '''
+
 def main():
     while True:
             print('1.   Verifica daca un numar este palindrom.')
@@ -106,6 +107,6 @@ def main():
             else:
                 print('Optiune invalida.')
 
-
-main()
+if __name__ == '__main__':
+   main()
 
